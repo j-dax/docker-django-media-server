@@ -17,10 +17,6 @@ services:
     image: postgres:12.0-alpine
     volumes:
       - postgres_data:/var/lib/postgresql/data
-    environment:
-      - POSTGRES_USER=jdax
-      - POSTGRES_PASSWORD=ENlittenl#aw5
-      - POSTGRES_DB=fs_table
-    
+      
 volumes:
   postgres_data:
